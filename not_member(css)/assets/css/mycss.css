@@ -1,0 +1,377 @@
+/* Nav  */
+.navbar-brand{
+    font-size: 27px;  
+    font-family: Viga;
+}
+
+.nav-item{
+    font-size: 18px;    
+    font-weight: 900;
+}
+
+/* Nav Tab */
+.nav-tabs > li {
+  float:none;
+  display:inline-block;
+  zoom:1;
+}
+
+.nav-tabs {
+  text-align:center;
+}
+
+/* Jarak */
+.jarak{
+  margin-top:83px ;
+}
+
+.jbtop{
+  margin-top: 135px ;
+}
+
+.atas{
+  margin-top: 130px;
+}
+
+/* Top View */
+
+.top{
+  margin-top: 50px;
+}
+
+/* Tiket */
+.toket {
+  position: relative;
+  border: 2px solid black;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 1em 2em;
+}
+.toket:before,
+.toket:after{
+  height:900px;
+  width:45px;
+  content: '';
+  position: absolute;
+  top: 0.9em;
+  top: calc(0.9em - 1px);
+  height: 1.2em;
+  width: 0.6em;
+  border: 2px solid black;
+}
+.toket:before {
+  left: -2px;
+  border-radius: 0 1em 1em 0;
+  border-left-color: white;
+}
+.toket:after {
+  right: -2px;
+  border-radius: 1em 0 0 1em;
+  border-right-color: white;
+}
+
+
+/* Form Upload */
+
+.box-upload{
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+  margin-top: 130px;
+  background-color: #FFFFFF;
+  padding: 30px ;  
+}
+
+/* RadioBTN Paymen Selector */
+.paymentWrap {
+	padding: 50px;
+}
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 800px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 40px;
+	box-shadow: none;
+	position: relative;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+	outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active .method {
+	border-color: #00FFFF;
+	outline: none !important;
+	box-shadow: 0px 3px 22px 0px #7b7b7b;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	bottom: 3px;
+	left: 3px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.visa {
+	background-image: url("../../assets/img/bank/BCA.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.master-card {
+	background-image: url("../../assets/img/bank/BRI.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.amex {
+	background-image: url("../../assets/img/bank/Mandiri.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.vishwa {
+	background-image: url("../../assets/img/bank/BNI.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.ez-cash {
+	background-image: url("http://www.busbooking.lk/img/carousel/BusBooking.lk_ezCash_offer.png");
+}
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+	border-color: #00FFFF;
+	outline: none !important;
+}
+
+
+/* babges */
+
+.hv:hover{
+  color: white !important;
+}
+
+/* Modals */
+.nav-tabs .nav-link{
+  color: #35bdff;
+}
+
+.info-panel{
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1); 
+  border-radius: 4px; 
+  margin-top: 10px;
+  background-color: white;
+  padding: 30px ;
+  margin-bottom: 10px;
+}
+
+.info-panel img {
+  /* width: 130px; */
+  height: 200px;
+  /* margin-right: 20px; */
+  border: solid #c4dbe0;
+}
+
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  
+}
+
+.info-panel label{
+  font-size: 13px;
+}
+
+.info-panel p{
+  font-size: 14;
+  color: black;
+  margin-top: -5px;
+  font-weight: 200;    
+  text-align: justify;
+  }
+
+  /* Profile */
+  .box-profile img {
+    /* width: 130px; */
+    height: 200px;
+    /* margin-right: 20px; */
+    border: solid #c4dbe0;
+  }
+
+  .box-profile{
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    margin-top: 130px;
+    background-color: #FFFFFF;
+    padding: 30px ;  
+  }
+
+  .box-profile .row{
+    padding-top: 20px;
+  }
+  
+  .box-profile .row a{
+    text-decoration:none;
+  }
+  
+  
+
+/* Border input */
+.ipcyan:focus {
+  color: #495057;
+  background-color: rgb(95, 90, 90);
+  border-color: #35bdff;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(80, 44, 108, 0.25); }
+
+
+/* Search Input */
+.iput[type="text"] {
+    width: 600px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  .iput[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon .iput[type="text"] {
+    padding-left: 40px;
+  }
+  
+  .inputWithIcon {
+    position: relative;
+  }
+  
+  .inputWithIcon i {
+    position: absolute;
+    left: 1;
+    top: 12px;
+    padding: 9px 9px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  
+  .inputWithIcon .iput[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+  /* Search Box user */
+  .iput-user[type="text"] {
+    width: 370px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  .iput-user[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon .iput-user[type="text"] {
+    padding-left: 40px;
+  }
+  
+  .inputWithIcon {
+    position: relative;
+  }
+  
+  .inputWithIcon i {
+    position: absolute;
+    left: 1;
+    top: 12px;
+    padding: 9px 9px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  
+  .inputWithIcon .iput-user[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+  /* Jarak Top D & V */
+  .jtop{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+
+  /* Footer */
+  .sticky{
+    flex-shrink: none;
+  }
+
+  /* PDF Viewer */
+  .pdfobject-container {
+    height: 1300px ;
+    width: 100% ;
+    border: 1rem solid rgba(0,0,0,.1) !;
+   }
+
+   .pdf-jarak{
+     margin-top: 15px;
+   }
+
+  /* Utilty */
+  body{
+    background-color: #eaeff2;
+    /* EAE7DC */
+}
+
+.bg-mint{
+  background-color: white;   
+}
+
+/* Mobile Version */
+@media (max-width: 575.98px) {
+    .iput[type="text"] {
+        width: 100%;
+        border: 2px solid #aaa;
+        border-radius: 4px;
+        margin: 8px 0;
+        outline: none;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+      }
+
+      .info-panel img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;  
+        margin-bottom: 20px ;
+        border: solid #e2ded0;
+      }
+
+      .pdfobject-container {
+        height: 410px ;
+        width: 100% ;
+        border: 1rem solid rgba(0,0,0,.1) ;
+        position: relative;
+        display: block;
+        padding: 0;
+        overflow: hidden;
+       }
+
+}
